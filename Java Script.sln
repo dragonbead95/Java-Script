@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter02 자바스크립트 개발환경", "Chapter02 자바스크립트 개발환경", "{D60C2390-20AC-4793-8129-C3D8784E3167}"
+	ProjectSection(SolutionItems) = preProject
+		hello_javascript.js = hello_javascript.js
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter03 자바스크립트 데이터 타입과 연산자", "Chapter03 자바스크립트 데이터 타입과 연산자", "{D66B113D-60C7-4FC7-993B-65E4954F83A4}"
+	ProjectSection(SolutionItems) = preProject
+		ex3-01.js = ex3-01.js
+		ex3-02.js = ex3-02.js
+		ex3-03.js = ex3-03.js
+		ex3-04.js = ex3-04.js
+		ex3-05.js = ex3-05.js
+		ex3-06.js = ex3-06.js
+		ex3-07.js = ex3-07.js
+		ex3-08.js = ex3-08.js
+		ex3-09.js = ex3-09.js
+		ex3-10.js = ex3-10.js
+		ex3-11.js = ex3-11.js
+		ex3-12.js = ex3-12.js
+		ex3-13.js = ex3-13.js
+		ex3-14.js = ex3-14.js
+		ex3-15.js = ex3-15.js
+		ex3-16.js = ex3-16.js
+		ex3-17.js = ex3-17.js
+		ex3-18.js = ex3-18.js
+		ex3-19.js = ex3-19.js
+		ex3-20.js = ex3-20.js
+		ex3-21.js = ex3-21.js
+		ex3-22.js = ex3-22.js
+		ex3-23.js = ex3-23.js
+		ex3-24.js = ex3-24.js
+		ex3-25.js = ex3-25.js
+		ex3-26.js = ex3-26.js
+		ex3-27.js = ex3-27.js
+		ex3-28.js = ex3-28.js
+		ex3-29.js = ex3-29.js
+		ex3-30.js = ex3-30.js
+		main.html = main.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter04 함수와 프로토타입 체이닝", "Chapter04 함수와 프로토타입 체이닝", "{ED97A0BD-7DD8-4B3C-B7EF-DB5A4C9468EC}"
+	ProjectSection(SolutionItems) = preProject
+		ex4-01.js = ex4-01.js
+		ex4-02.js = ex4-02.js
+		ex4-03.js = ex4-03.js
+		ex4-04.js = ex4-04.js
+		ex4-05.js = ex4-05.js
+		ex4-06.js = ex4-06.js
+		ex4-07.js = ex4-07.js
+		ex4-08.js = ex4-08.js
+		ex4-09.js = ex4-09.js
+		ex4-10.js = ex4-10.js
+		ex4-11.js = ex4-11.js
+		ex4-12.js = ex4-12.js
+		ex4-13.js = ex4-13.js
+		ex4-14.js = ex4-14.js
+		main4.html = main4.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A06D36E-CB77-4681-820B-BC595985E8B6}
+	EndGlobalSection
+EndGlobal
