@@ -1,0 +1,23 @@
+﻿<!--
+1. 함수 이름을 지정하지 않은 함수를 익명함수라 한다.
+2. 익명 함수의 대표적인 용도는 콜백함수이다.
+3. 자바스크립트에서 이벤트 처리는 이벤트가 발생하면 이벤트핸들러는 콜백 함수를
+    실행시킨다. 이 콜백함수를 개발자가 등록한다.
+-->
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script>
+        //페이지 로드 시 호출될 콜백 함수
+        window.onload = function () {
+            alert('This is the callback function');
+        }
+    </script>
+</body>
+</html>

@@ -60,6 +60,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter04 함수와 프로�
 		ex4-12.js = ex4-12.js
 		ex4-13.js = ex4-13.js
 		ex4-14.js = ex4-14.js
+		ex4-15.html = ex4-15.html
+		ex4-16.js = ex4-16.js
+		ex4-17.js = ex4-17.js
+		ex4-18.js = ex4-18.js
+		ex4-19.js = ex4-19.js
+		ex4-20.js = ex4-20.js
+		ex4-21.js = ex4-21.js
+		ex4-22.js = ex4-22.js
 		main4.html = main4.html
 	EndProjectSection
 EndProject

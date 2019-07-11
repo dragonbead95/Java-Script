@@ -34,5 +34,53 @@ function myFunction() {
  * 또한, 프로토타입 객체 역시 자바스크립트 객체이므로 예외 없이 자신의 부모 역할을 하는
  * _proto_ 프로퍼티가 있다.
  */
+
 console.dir(myFunction.prototype);
 console.dir(myFunction.prototype.constructor);
+//myFunction의 prototype 프로퍼티가 가리키고
+// 있는 myFunction.prototype의 constructor 프로퍼티가 가리키고 있는 객체, 즉 MyFunction을
+// 의미한다.
+
+
+function Ultra() { }
+Ultra.prototype.ultraProp = true;
+
+function Super() { }
+Super.prototype = new Ultra();
+
+function Sub() { }
+Sub.prototype = new Super();
+
+var o = new Sub();
+
+console.dir(o);
+
+
+/**
+ * add()라는 함수객체가 있고, add의 프로퍼티들에는 TempInfo라는 이름의 객체가 add함수의 
+ * 프로퍼티(속성)으로 존재한다.
+ * 그리고 add의 프로퍼티에는 prototype이라는 이름의 객체가 add함수의 프로퍼티로 존재하는데
+ * 이 prototype 객체의 속성에는 TempInfo2라는 이름의 객체가 prototype 객체의 프로퍼티(속성)에
+ * 존재한다.
+ * 
+ * 정리하면 객체안에는 또다른 객체가 프로퍼티로서 존재할수 있다.
+ * 
+ * */
+/*
+function add() {
+    return 1;
+}
+
+var info = {
+    name: 'foo',
+    age: 35
+}
+
+var info2 = {
+    name: 'babo',
+    age: 20
+}
+add.TempInfo = info;
+add.prototype.TempInfo2 = info2;
+console.dir(add);
+*/
