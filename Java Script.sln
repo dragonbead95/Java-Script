@@ -93,6 +93,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter04 함수와 프로�
 		main4.html = main4.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter05 실행 컨텍스트와 클로저", "Chapter05 실행 컨텍스트와 클로저", "{699EA349-8D54-4C16-9560-15A45946B984}"
+	ProjectSection(SolutionItems) = preProject
+		ex5-01.js = ex5-01.js
+		ex5-02.js = ex5-02.js
+		ex5-03.js = ex5-03.js
+		ex5-04.js = ex5-04.js
+		ex5-05.js = ex5-05.js
+		ex5-06.js = ex5-06.js
+		ex5-07.js = ex5-07.js
+		ex5-08.js = ex5-08.js
+		ex5-09.js = ex5-09.js
+		ex5-10.js = ex5-10.js
+		ex5-11.js = ex5-11.js
+		ex5-12.js = ex5-12.js
+		ex5-13.js = ex5-13.js
+		ex5-14.js = ex5-14.js
+		ex5-15.js = ex5-15.js
+		ex5-16.js = ex5-16.js
+		main5.html = main5.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
